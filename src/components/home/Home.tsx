@@ -1,4 +1,5 @@
 import {useHistory} from "react-router-dom";
+import './home.css'
 
 export const Home = () => {
 
@@ -27,7 +28,7 @@ export const Home = () => {
                     </ul>
                 </div>
 
-                <img src={('/assets/logo.svg')} alt="" />
+                <img className="react-image" src={('/assets/logo.svg')} alt="" />
 
                 <button className="btn btn-primary mt-4" onClick={logout}>Cerrar Sesión</button>
             </div>
